@@ -88,7 +88,7 @@ public class AdminService {
 	
 	public void editTitle(String attName,String attVal,String imdbId) {
 		String query = "UPDATE Movie SET "+attName+" ='"+attVal+"'where imdbid = '"+imdbId+"'";
-		System.out.println(query);
+		//System.out.println(query);
 		Connection con = DBUtils.connect();
 		Statement st = null;
 	
