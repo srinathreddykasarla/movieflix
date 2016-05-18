@@ -1,2 +1,2 @@
 # movieflix
-Movie Flix App
+Movie Flix Web App Using - Spring MVC, JAVA, Html, CSS, JavaScript, SQL etc...
