@@ -39,9 +39,7 @@ public class AdminService {
 	public Admin getdetails(Admin admin){
 		try{
 
-			 //loading drivers for mysql
-		         
-		         DBUtils db = new DBUtils();
+
 		 	 //creating connection with the database 
 		         Connection con=db.connect();
 		         PreparedStatement ps =con.prepareStatement("select * from admin where userid='"+admin.getUserid()+"' and password='"+admin.getPassword()+"'");
